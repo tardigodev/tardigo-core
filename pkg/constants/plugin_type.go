@@ -3,8 +3,8 @@ package constants
 type PluginType string
 
 const (
-	PluginTypeSourceStorage PluginType = "source_storage"
-	PluginTypeTargetStorage PluginType = "target_storage"
+	PluginTypeSourceReader PluginType = "source_reader"
+	PluginTypeTargetWriter PluginType = "target_writer"
 
 	PluginTypeSourceParser PluginType = "source_parser"
 	PluginTypeTargetParser PluginType = "target_parser"
